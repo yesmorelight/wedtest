@@ -1,0 +1,166 @@
+/*  GENERAL  */
+
+body {
+  margin: 0;
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: bourbon;
+  src: url(fonts/Bourbon.otf);
+}
+
+@font-face {
+  font-family: oceanSix;
+  src: url(fonts/OCEAN_6.ttf);
+}
+
+@font-face {
+  font-family: nightingale;
+  src: url(fonts/nightingale.otf);
+}
+
+
+/*  NAV  */
+
+#menu-btn {
+  color: #F5F5F5;
+  text-align: center;
+  margin-right: 2rem;
+  user-select: none;
+  cursor: pointer;
+  width: 1rem;
+}
+.menu-cont {
+  height: 13rem;
+  padding: 1px;
+}
+
+ul {
+  padding: 0;
+  text-decoration-style: none;
+  font-family: oceanSix;
+  font-size: 2rem;
+  text-align: center;
+}
+
+li {
+  display: block;
+  margin: 0.5rem 0;
+}
+a {
+  color: #F5F5F5;
+  text-decoration: none;
+  opacity: 0.75;
+}
+a:hover {
+  opacity: 1;
+}
+
+
+/*  HEADING  */
+
+header {
+  padding: 3rem 1rem;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+#header-img {
+  max-width: 20rem;
+  display: block;
+  margin: 0 auto -1rem auto;
+}
+
+#spacer1-first {
+  transform: rotate(180deg);
+  max-width: 20rem;
+  margin: 0 auto -0.8rem auto;
+}
+#spacer1-second {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+#main-h-one {font-family: bourbon; margin: 0; font-size: 1.27rem;}
+
+#main-h-two {font-family: oceanSix; margin: 0; font-size: 8.3rem;}
+
+#main-h-three {font-family: nightingale; margin: -0.5rem 0 1.5rem 0; font-size: 1.5rem;}
+#main-h-three-2 {font-family: nightingale; margin: 0; font-size: 1.8rem;}
+
+
+/*  INFO  */
+
+#jars {
+  max-width: 10rem;
+  margin: 5rem auto 0 auto;
+  display: block;
+}
+
+#info-img {
+  max-width: 15rem;
+  margin:  auto auto 3rem auto;
+  display: block;
+}
+
+.spacer2 {
+  max-width: 12rem;
+  margin: 0 auto;
+}
+
+article {color: #F5F5F5; text-align: center; height: auto;}
+
+#info-h-one {font-family: bourbon; font-size: 1.51rem; margin: 0;} 
+#info-h-one-2 {font-family: bourbon; font-size: 1.99rem; margin: 0;}
+
+#info-h-two {font-family: oceanSix; margin: 0; font-size: 5.5rem;}
+#info-h-two-2 {font-family: oceanSix; margin: -1.4rem 0 0 0; font-size: 7.4rem;}
+#info-h-two-3 {font-family: oceanSix; margin: -1.8rem 0 -1rem 0; font-size: 4.9rem;}
+
+#info-h-three {font-family: nightingale; margin: 1rem auto 3rem auto; font-size: 2.5rem;}
+
+
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 700px) {
+  .menu-cont {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+  }
+  #menu-btn {
+    display: none;
+  }
+  li {
+    display: inline;
+    padding: 1rem;
+  }
+  a {
+    color: #F5F5F5;
+  }
+  
+  #header-img {
+    max-width: 33rem;
+    margin-bottom: -1.8rem;
+  }
+  #spacer1-first {
+    max-width: 35rem;
+    margin: 0 auto -0.8rem auto;
+  }
+  #spacer1-second {
+    max-width: 35rem;
+    margin: 0.5rem auto 0 auto;
+  }
+
+  
+  #main-h-one {margin: 0; font-size: 2rem;}
+
+  #main-h-two {margin: 0; font-size: 13rem;}
+
+  #main-h-three {margin: -1.5rem 0 2rem 0; font-size: 2.3rem;}
+  #main-h-three-2 {margin: 0; font-size: 2.75rem;}
+  
+}
