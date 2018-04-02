@@ -28,7 +28,7 @@ body {
 #menu-btn {
   color: #F5F5F5;
   text-align: center;
-  margin-right: 2rem;
+  margin-left: 83vw;
   user-select: none;
   cursor: pointer;
   width: 1rem;
@@ -95,7 +95,7 @@ header {
 /*  INFO  */
 
 #jars {
-  max-width: 10rem;
+  max-width: 8rem;
   margin: 5rem auto 0 auto;
   display: block;
 }
